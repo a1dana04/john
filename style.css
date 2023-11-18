@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.buttom{
+    cursor: pointer;
+    border: none;
+}
+body{
+    font-family: 'Heebo', sans-serif;
+}
+#header{
+    padding: 27px;
+}
+
+.header a{
+    color: #000;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;
+    margin:0 0 0 33px;
+}
+.header{
+ display: flex;
+ justify-content: flex-end; 
+}
+
+#hero{
+   padding:140px  0 40px 0;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.hero-text h1{
+    color: var(--Dark-Color, #21243D);
+font-size: 44px;
+font-weight: 700;
+line-height: 60px; /* 136.364% */
+margin: 40px 0;
+}
+
+.hero-text p{
+    color: var(--Dark-Color, #21243D);
+font-size: 16px;
+font-weight: 400;
+margin: 38px 0;
+}
+.hero-text button{
+    color: #FFF;
+font-size: 20px;
+font-weight: 500;
+border-radius: 2px;
+background: var(--Primary, #FF6464);
+width: 208px;
+height: 47px;
+border: none;
+
+}
+
+
+.post h6{
+    color: var(--Dark-Color, #21243D);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 60px; /* 272.727% */
+}
+
+.post span{
+    color: var(--Secondry, #00A8CC);
+font-size: 16px;
+font-weight: 400;
+}
+.post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+
+#posts{
+    background: #EDF7FA;
+    width: 1152px;
+height: 396px;
+width: 100%;
+padding: 27px 0;
+
+}
+
+.posts{
+   align-items: center;
+   justify-content: space-between;
+   display: flex;
+   width: 90%;
+}
+
+.posts-text{
+      
+        width: 418px;
+        height: 255px;
+        border-radius: 4px;
+        background: #fff;
+        padding: 24px;
+        box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+    }
+
+
+
+.posts-text h3{
+    color: var(--Dark-Color, #21243D);
+font-size: 26px;
+font-weight: 700;
+}
+
+.posts-text p{
+    color: var(--Dark-Color, #21243D);
+font-size: 18px;
+font-weight: 400;
+margin: 17px 0 11px 0;
+
+}
+.posts-text h6{
+    color: var(--Dark-Color, #21243D);
+font-size: 18px;
+font-weight: 400;
+margin: 18px 0;
+}
+
+.posts-text span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#desai{
+padding: 15px 0 47px 0;
+}
+
+.desai img{
+    margin: 22px 0;
+}
+
+.pr p{
+    color: var(--Dark-Color, #21243D);
+font-size: 22px;
+font-weight: 400;
+
+}
+
+.desai-text h2{
+    color: var(--Dark-Color, #21243D);
+    font-size: 30px;
+    font-weight: 700;
+}
+.desai-text p{
+    color: var(--Dark-Color, #21243D);
+font-size: 16px;
+font-weight: 400;
+}
+
+.two button{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 900;
+    width: 62px;
+height: 25px;
+border-radius: 16px;
+background: #142850;
+border: none;
+
+
+
+}
+
+.two h4{
+    color: var(--Light, #8695A4);
+font-size: 20px;
+font-weight: 400;
+margin-left: 26px;
+}
+.two{
+    display: flex;
+    margin: 16px 0 17px 0;
+}
+.desai{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    width: 77%;
+}
+
+#logo{
+    padding: 51px 0 54px 0;
+}
+
+
+
+.logo-foto {
+    gap: 35px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.logo p{
+    color: var(--Dark, #21243D);
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+margin: 25px 0;
+
+}
+
+
+
+@media(max-width:1024px){
+    .hero {
+        width: 95%;
+    }
+
+    .hero-text h1{
+        font-size: 35px;
+    }
+
+    .posts-text h3 {
+        font-size: 22px;
+    }
+
+
+    .posts-text p {
+        font-size: 14px;
+    }
+
+    
+element.style {
+}
+.post h6 {
+    font-size: 14px;
+}
+
+.posts-text h6 {
+    font-size: 18px;
+    margin: 31px 0;
+}
+
+.posts-text {
+    width: 305px;
+    height: 274px;
+}
+
+.desai-text h2 {
+    font-size: 20px;
+}
+
+.two button {
+    font-size: 14px;
+    width: 59px;
+    height: 22px;
+}
+
+.two h4 {
+    font-size: 16px;
+    margin-left: 28px;
+}
+
+.desai img {
+    width: 36%;
+}
+
+.desai-text p {
+    font-size: 11px;
+}
+
+}
+
+@media(max-width:768px){
+    .hero img{
+        width: 26%;
+    }
+
+    .header a {
+        font-size: 18px;
+       
+    }
+
+    .hero-text p {
+        color: var(--Dark-Color, #21243D);
+        font-size: 12px;
+        font-weight: 400;
+        margin: 24px 0;
+    }
+    .hero-text h1{
+        margin: 18px 0;
+    }
+
+
+    .hero{
+        width: 92%;
+
+    }
+    .hero-text button {
+        font-size: 15px;
+        width: 180px;
+        height: 42px;
+    }
+
+    .posts-text h3 {
+        font-size: 16px;
+    }
+    .posts-text h6 {
+        font-size: 11px;
+        margin: 26px 0;
+    }
+
+    .posts-text p {
+        font-size: 10px;
+    }
+
+    .posts-text {
+        width: 218px;
+        height: 191px;
+    }
+
+    .post h6 {
+        font-size: 11px;
+    }
+
+    .post span {
+        font-size: 12px;
+    }
+
+    .desai-text h2 {
+        font-size: 14px;
+    }
+
+    .two h4 {
+        font-size: 11px;
+        margin-left: 17px;
+    }
+
+    .two button {
+        font-size: 9px;
+        width: 43px;
+        height: 19px;
+    }
+
+    .two {
+        margin: 9px 0 12px 0;
+    }
+
+    .desai-text p {
+        font-size: 8px;
+    } 
+    
+}
+
+
+@media(max-width:320px){
+ .header{
+ display: none;   
+
+    }
+
+    #header {
+        padding: 15px;
+    }
+
+    .hero{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .hero img {
+        width: 75%;
+    }
+
+    .hero-text h1 {
+        font-size: 26px;
+        line-height: 39px;
+        text-align: center;
+    }
+
+    .hero-text p {
+        font-size: 10px;
+        margin: 26px 0;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+
+    .hero-text button {
+    justify-content: center;
+    align-items: center;
+    }
+
+
+    .posts{
+    flex-direction: column;
+    }
+
+
+    .desai{
+        flex-direction: column;
+    }
+
+
+    #posts {
+       
+        width: 100%;
+    }
+
+    #desai {
+        padding: 70px 0 57px 0;
+    }
+
+    .posts {
+        width: 100%;
+        gap: 30px;
+    }
+    #posts {
+        height: 558px;
+       
+    }
+
+    /* .hero-text{
+        width: 100%;
+    } */
+
+    .hero-text {
+        width: 70%;
+    }
+
+    .hero-text button {
+        font-size: 12px;
+        width: 163px;
+        height: 38px;
+    }
+
+    .desai img {
+        width: 120%;
+    }
+
+    .desai-text h2 {
+        font-size: 17px;
+    }
+
+    .two button {
+        font-size: 12px;
+        width: 53px;
+        height: 20px;
+    }
+
+    .two h4 {
+        font-size: 15px;
+
+    }
+
+
+    .desai-text{
+        width: 114%;
+    }
+
+
+    .desai-text p {
+        font-size: 10px;
+    }
+
+    .footer{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
